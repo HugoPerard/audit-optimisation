@@ -1,15 +1,4 @@
 {
-  "headers": [
-    {
-      "source": "/assets/bootstrap/css/(.*)",
-      "headers" : [
-        {
-          "key" : "Cache-Control",
-          "value" : "public, max-age=3600"
-        }
-      ]
-    }
-  ],
   "routes": [
     {
       "src": "/assets/images/(.*)",
