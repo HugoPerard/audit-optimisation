@@ -1,17 +1,7 @@
 {
   "routes": [
     {
-      "src": "/assets/images/(.*)",
-      "headers": { "cache-control": "max-age=604800, public" },
-      "dest": "/images/$1"
-    },
-    {
-      "src": "/assets/bootstrap/css/(.*)",
-      "headers": { "cache-control": "max-age=604800, public" },
-      "dest": "/bootstrap/$1"
-    },
-    {
-      "src": "/assets/",
+      "src": "/assets/*",
       "headers": { "cache-control": "max-age=604800, public" },
       "dest": "/assets/$1"
     }
