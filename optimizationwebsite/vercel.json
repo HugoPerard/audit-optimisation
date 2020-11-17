@@ -13,7 +13,7 @@
     {
       "src": "/assets/",
       "headers": { "cache-control": "max-age=604800, public" },
-      "dest": "/maps/$1"
+      "dest": "/assets/$1"
     }
   ]
 }
